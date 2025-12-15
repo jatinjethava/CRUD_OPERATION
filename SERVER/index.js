@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/user', userRoutes);
+// for user routes only 
 
 
 app.listen(PORT, () => {
