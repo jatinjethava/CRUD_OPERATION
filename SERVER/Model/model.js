@@ -10,7 +10,7 @@ const moduleSchema = new mongoose.Schema({
         required: true
     },
     mobile_no: {
-        type: String,
+        type: Number,
         required: true
     },
     course: {
@@ -18,7 +18,7 @@ const moduleSchema = new mongoose.Schema({
         required: true
     },
     fees: {
-        type: String,
+        type: Number,
         required: true
     }
 }, { timestamps: true });
