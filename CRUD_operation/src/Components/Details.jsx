@@ -65,6 +65,18 @@ export const Details = () => {
         }
     };
 
+    const UpdateUser = async (e) => {
+        e.preventDefault();
+        try {
+            const response = await userUrl.put('/updateUser/:id', data);
+            if (response.status === 200) {
+                alert('User updated successfully');
+            }
+        } catch (error) {
+            console.log('Error updating user:', error);
+        }
+    }
+
     return (
         <div className='w-full px-5 min-[calc(100vh-60px)]:'>
             {/* <h1 className='text-3xl font-bold text-center mt-10'>User Details</h1>

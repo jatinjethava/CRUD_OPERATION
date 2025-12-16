@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Details />
+      {/* <Details /> */}
       <Home />
     </>
   );
