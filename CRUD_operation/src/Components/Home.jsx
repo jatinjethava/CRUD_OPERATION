@@ -6,10 +6,6 @@ export const Home = () => {
             {/* <h1 className='text-3xl font-bold text-center mt-10'>Welcome to the CRUD Operation App</h1>
             <p className='text-center mt-5 text-lg text-gray-600'>This is a simple application to demonstrate Create, Read, Update, and Delete operations using React.</p> */}
 
-            <div className='w-full flex justify-end'>
-                <button className='bg-gray-500 text-white h-10 w-30 border rounded-sm cursor-pointer mt-5 mb-5'>SUBMIT</button>
-            </div>
-
             <div className='w-full'>
                 <table className='w-full bg-white divide-y divide-gray-200'>
                     <thead className='bg-gray-50'>

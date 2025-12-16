@@ -3,6 +3,9 @@ const DB_Connection = require('./database');
 const userRoutes = require('./Routes/user.routes');
 const PORT = 8100;
 const app = express();
+const cors = require('cors');
+
+app.use(cors());
 app.use(express.json());
 
 // Connect to the database
